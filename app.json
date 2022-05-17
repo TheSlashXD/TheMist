@@ -7,7 +7,8 @@
        "group",
        "manager",
        "TheMist"
-    ],   
+    ],  
+ "logo":    "https://telegra.ph/file/62ef10c6cb5ed7194a099.jpg",
  "repository": "https://github.com/TheSlashXD/TheMist",
  "addons": [
     {
@@ -34,7 +35,7 @@
     "API_ID": {
        "description": "Get API_ID from my.telegram.org, used for telethon based modules.",
        "required": true,
-       "value": "3160248"
+       "value": ""
     },
     "API_HASH": {
        "description": "Get API_HASH from my.telegram.org, used for telethon based modules.",
