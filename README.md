@@ -19,7 +19,6 @@
 👉 YoneRobot
 👉 SaitamaRobot 
 
-$ git clone https://github.com/TheSlashXD/TheMist
 
 ```
 ### Deploy On Heroku 
