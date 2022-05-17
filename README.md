@@ -18,7 +18,6 @@
 ```
 👉 YoneRobot
 👉 SaitamaRobot 
-👉 DaisyX 
 
 $ git clone https://github.com/TheSlashXD/TheMist
 
