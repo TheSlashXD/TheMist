@@ -89,8 +89,6 @@ Hello *{}*, My name is *{}*!
 A telegram group management bot. I'm here to help you to manage your groups.
 ××××××××××××××××××××××××
 × *UPTIME:*  `{}`
-× `{}` *USERS*
-× *BOTCHATS* `{}`
 ××××××××××××××××××××××××
 I have lots of features such as:
 ‣ Warning system
@@ -165,7 +163,7 @@ def start(update: Update, context: CallbackContext):
         else:
             update.effective_message.reply_text(
                 PM_START_TEXT.format(
-                        escape_markdown(first_name), escape_markdown(context.bot.first_name)),
+                        escape_markdown(first_name), escape_markdown(context.bot.first_name), escape_markdown(uptime)),
                 reply_markup=InlineKeyboardMarkup([
     [
         InlineKeyboardButton(
