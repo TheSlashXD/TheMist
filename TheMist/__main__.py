@@ -83,11 +83,17 @@ def get_readable_time(seconds: int) -> str:
     return ping_time
 
 
-PM_START_TEXT = """ Hello *{}*, My name is *{}*! 
+PM_START_TEXT = """ 
+────「 [{}](https://telegra.ph/file/6efabe8aaae66fae5ccd8.jpg) 」────
+Hello *{}*, My name is *{}*! 
 A telegram group management bot. I'm here to help you to manage your groups.
+××××××××××××××××××××××××
+× *UPTIME:*  `{}`
+× `{}` *USERS*
+× *BOTCHATS* `{}`
+××××××××××××××××××××××××
 I have lots of features such as:
 ‣ Warning system
-‣ Flood control
 ‣ Note keeping
 ‣ Filters keeping
 ‣ Approvals and much more.
