@@ -16,7 +16,7 @@
 
 # Credits 
 ```
-👉 YoneRobot
+👉 YoneRobott
 👉 SaitamaRobot 
 
 
